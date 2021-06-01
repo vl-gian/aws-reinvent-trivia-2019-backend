@@ -7,7 +7,6 @@ In src/ directory:
 * api-base-image-pipeline.ts: Builds and publishes the base Docker image for the backend API service
 * api-service-pipeline.ts: Builds and deploys the backend API service to Fargate
 * api-service-codedeploy-pipeline.ts: Builds and deploys the backend API service to Fargate with CodeDeploy
-* static-site-pipeline.ts: Provisions infrastructure for the static site, like a CloudFront distribution and an S3 bucket, plus bundles and uploads the static site pages to the site's S3 bucket
 
 ## Prep
 

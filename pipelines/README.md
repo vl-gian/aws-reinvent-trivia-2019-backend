@@ -13,7 +13,7 @@ In src/ directory:
 Create a GitHub [personal access token](https://github.com/settings/tokens) with access to your fork of the repo, including "admin:repo_hook" and "repo" permissions.  Then store the token in Secrets Manager:
 
 ```
-aws secretsmanager create-secret --region us-east-1 --name TriviaGitHubToken --secret-string <my-github-personal-access-token>
+aws secretsmanager create-secret --region us-east-1 --name BackendTriviaGitHubToken --secret-string <my-github-personal-access-token>
 ```
 
 ## Customize
